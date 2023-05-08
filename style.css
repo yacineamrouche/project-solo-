@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&family=Space+Grotesk:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #00104b;
+}
+
+
+
+div.main {
+  background-color: ;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  border-radius: 2% 2% 15% 2%;
+  box-shadow: -4px 6px 57px -17px rgba(0, 0, 0, 0.53);
+}
+
+
+div.firstMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+div.inputs {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  font-family: "Exo", sans-serif;
+}
+
+
+label {
+  display: flex;
+  flex-direction: column;
+  color: hsl(0, 1%, 44%);
+  margin-left: 15px;
+}
+input {
+  border: 1px solid hsl(0, 0%, 86%);
+  border-radius: 8%;
+  background-color: hsl(0, 0%, 94%);
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 100px;
+  padding: 10px;
+}
+
+.output {
+  color: hsl(259, 100%, 65%);
+}
+.output-text {
+  color: #f8edeb;
+}
+.outputs {
+  font-size: 5em;
+}
+
+
+#calculate {
+  height: 50px;
+  width: 100px;
+  margin-top: 21px;
+  margin-left: 10px;
+  background-color: hsl(0, 0%, 94%);
+  border: 2px solid hsl(259, 100%, 65%);
+  border-radius: 10px;
+  color: hsl(259, 100%, 65%);
+  font-family: 'Exo', sans-serif;
+  
+}
+
+#calculate:hover{
+  background-color: hsl(259, 100%, 65%);
+  color : hsl(0, 0%, 94%);
+}
+
+
+
+#change{
+  color: hsl(259, 100%, 65%);
+  background-color: hsl(0, 0%, 94%);
+  height : 50px;
+  width:100px;
+  margin-top: 21px;
+  margin-left: 10px;
+  font-family:"exo", sans-serif;
+  border: 2px solid hsl(259, 100%, 65%);
+  border-radius: 10px;
+}
+
+#change:hover{
+  background-color: hsl(259, 100%, 65%);
+  color : hsl(0, 0%, 94%);
+}
+
