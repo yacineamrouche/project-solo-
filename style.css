@@ -3,13 +3,18 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #00104b;
-}
+ height: 700px;;
+    background-image: linear-gradient(#0b1473, #7a007a);
+    background-size: fill;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+  }
+
 
 
 
 div.main {
-  background-color: ;
+  background-color: #002d67;
   height: 600px;
   width: 600px;
   display: flex;
@@ -39,7 +44,7 @@ div.inputs {
 label {
   display: flex;
   flex-direction: column;
-  color: hsl(0, 1%, 44%);
+  color: #f8edeb;
   margin-left: 15px;
 }
 input {
@@ -72,20 +77,20 @@ input {
   background-color: hsl(0, 0%, 94%);
   border: 2px solid hsl(259, 100%, 65%);
   border-radius: 10px;
-  color: hsl(259, 100%, 65%);
+  color: #7a007a  ;
   font-family: 'Exo', sans-serif;
   
 }
 
 #calculate:hover{
-  background-color: hsl(259, 100%, 65%);
+  background-color: #7a007a;
   color : hsl(0, 0%, 94%);
 }
 
 
 
 #change{
-  color: hsl(259, 100%, 65%);
+  color: #7a007a;
   background-color: hsl(0, 0%, 94%);
   height : 50px;
   width:100px;
@@ -97,7 +102,142 @@ input {
 }
 
 #change:hover{
-  background-color: hsl(259, 100%, 65%);
+  background-color: #7a007a;
   color : hsl(0, 0%, 94%);
 }
 
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #ced4da;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #7a007a;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #7a007a;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+/* body {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+
+
+div.main {
+  background-color: whitesmoke;
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  border-radius: 2% 2% 15% 2%;
+  box-shadow: -4px 6px 57px -17px black;
+}
+
+
+label {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  margin-left: 15px;
+}
+
+
+input {
+  border: 1px solid whitesmoke;
+  border-radius: 8%;
+  background-color: whitesmoke;
+  height: 50px;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 100px;
+  padding: 10px;
+}
+
+.output {
+  color: hsl(259, 100%, 65%);
+}
+.output-text {
+  color: hsl(0, 0%, 8%);
+}
+
+
+#calculate {
+  height: 50px;
+  width: 100px;
+  margin-top: 21px;
+  margin-left: 10px;
+  background-color: whitesmoke;
+  border: 2px solid hsl(259, 100%, 65%);
+  border-radius: 10px;
+  color: hsl(259, 100%, 65%);
+  font-family: 'Exo', sans-serif;
+  transition-duration: 300ms;
+}
+#calculate:hover{
+  background-color: hsl(259, 100%, 65%);
+  color : whitesmoke;
+}  */
